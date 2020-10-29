@@ -1,0 +1,38 @@
+Git Commands
+----------------------
+Initial Configuration
+----------------------
+git config --global user.name "<Enter your username>"
+git config --global user.email "<Enter your email>"
+
+-------------------------
+Start tracking with git
+-------------------------
+git status                                  -----Checks your current untracked files
+git add --all                               -----Stages untracked files
+git commit -m  "<Enter commit message>"	    -----Commits untracked files
+git rm --cached .                           -----Clears cache
+
+----------------
+Branching
+----------------
+git branch <Enter name of branch>                                 -------Creates a branch
+git branch                                                        -------View all branches
+git checkout <Enter name of branch to switch to>                  -------Switch to branch
+git merge <Enter name of branch you want to merge with master>    -------Merge branch to master
+git branch -d <Enter name of branch to delete>                    -------Delete branch
+
+---------------
+Cloning
+---------------
+git clone <Enter name of remote repository> <Specify relative path to clone destination>     -----Clones a remote repository
+	eg: git clone https://www.github.com/jesse/todo .
+
+------------------
+Github
+------------------
+git remote add origin <Enter link to repository you want to push to>      -----Sets a remote repository
+git push origin <Enter name of local branch you want to push>             -----Pushes to remote repository
+
+git remote -v                                                             -----Checks the remote repository that is linked to your local repository
+
