@@ -1,0 +1,9 @@
+-----------------
+React Libraries
+-----------------
+1) React Truncate         ----------- npm install react-truncate
+2) React Router           ----------- npm install react-router-dom
+3) Animate on Scroll      ----------- npm install aos
+4) Redux                  ----------- npm install redux
+5) React redux            ----------- npm install react-redux
+6) React icons            ----------- npm install react-icons
