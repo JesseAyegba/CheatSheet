@@ -7,3 +7,4 @@ React Libraries
 4) Redux                  ----------- npm install redux
 5) React redux            ----------- npm install react-redux
 6) React icons            ----------- npm install react-icons
+7) React flip move        ----------- npm install react-flip-move

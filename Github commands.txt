@@ -11,7 +11,7 @@ Start tracking with git
 git status                                  -----Checks your current untracked files
 git add --all                               -----Stages untracked files
 git commit -m  "<Enter commit message>"	    -----Commits untracked files
-git rm --cached .                           -----Clears cache
+git rm -r --cached .                           -----Clears cache
 
 ----------------
 Branching
