@@ -1,0 +1,29 @@
+"""
+Django Signal that creates Profile
+for a user when the user is created
+"""
+
+from django.dispatch import receiver
+from django.conf import settings
+from django.db.models.signals import post_save
+
+from .models import Profile 
+
+@receiver(post_save, sender=settings.AUTH_USER_MODEL)
+def create_profile(sender, instance, created, **kwargs):
+    if created:
+        Profile.objects.create(user=instance)
+
+
+
+-------------------------------------------------------
+Add a "ready" method to "apps.py" after creating signal
+-------------------------------------------------------
+
+from django.apps import AppConfig
+
+class UsersConfig(AppConfig):
+	name = "users"
+
+	def ready(self):
+		import users.signals
