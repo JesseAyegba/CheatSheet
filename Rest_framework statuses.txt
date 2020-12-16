@@ -2,6 +2,6 @@ status.HTTP_201_CREATED               Use after creating new Item(POST request)
 
 status.HTTP_400_BAD_REQUEST           Use if there is an error after form has been filled(Bad POST request)
 
-status.HTTP_404_NOT_FOUND	      Use if no item is gotten from database query
+status.HTTP_404_NOT_FOUND	          Use if no item is gotten from database query
 
 status=status.HTTP_204_NO_CONTENT     Use after an Item has been deleted(DELETE request)
