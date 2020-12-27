@@ -1,0 +1,19 @@
+---------------------
+Packages to install
+---------------------
+1)Install-Module posh-git -Scope CurrentUser
+2)Install-Module oh-my-posh -Scope CurrentUser
+
+----------
+Next
+----------
+3) run "notepad $PROFILE" in the terminal
+4) Add the following lines to the text file that comes out
+       -----------------------------
+	Import-Module posh-git
+	Import-Module oh-my-posh
+	Set-Theme Paradox
+       -----------------------------
+
+
+
