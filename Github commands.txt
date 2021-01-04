@@ -2,9 +2,9 @@ Git Commands
 ----------------------
 Initial Configuration
 ----------------------
-git config --global user.name "<Enter your username>"
-git config --global user.email "<Enter your email>"
-
+git config --global user.name "<Enter your username>"  --------------Set Username
+git config --global user.email "<Enter your email>"  ---------------Set Email
+git config --global -e                 --------------Check all config variables
 -------------------------
 Start tracking with git
 -------------------------
@@ -20,7 +20,8 @@ git branch <Enter name of branch>                                 -------Creates
 git branch                                                        -------View all branches
 git checkout <Enter name of branch to switch to>                  -------Switch to branch
 git merge <Enter name of branch you want to merge with master>    -------Merge branch to master
-git branch -d <Enter name of branch to delete>                    -------Delete branch
+git branch -d <Enter name of branch to delete>                    -------Delete local branch
+git push origin --delete <Enter name of branch to delete>         -------Delete remote branch
 
 ---------------
 Cloning
