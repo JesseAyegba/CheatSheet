@@ -1,0 +1,26 @@
+----------------------------------
+PayStack's props
+----------------------------------
+1) Send the object below as a prop to the "PaystackButton" component
+  that is imported from "react-paystack"
+
+const componentProps = {
+    email,
+    amount,
+    metadata: {
+      name,
+      phone,
+    },
+    publicKey,
+    text: "Pay Now",
+    onSuccess: () =>
+      alert("Thanks for doing business with us! Come back soon!!"),
+    onClose: () => alert("Wait! Don't leave :("),
+  };
+
+-----------------
+Example
+-----------------
+Using the spred operator
+
+<PaystackButton {...componentProps} />
