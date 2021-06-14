@@ -1,0 +1,22 @@
+import firebase from "firebase";
+import "firebase/firestore";
+import "firebase/storage";
+import "firebase/auth";
+
+const firebaseConfig = {
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
+};
+
+const app = firebase.initializeApp(firebaseConfig);
+
+const db = app.firestore();
+const auth = app.auth();
+const storage = app.storage();
+
+export { db, auth, storage };
