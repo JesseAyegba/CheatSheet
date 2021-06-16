@@ -1,4 +1,4 @@
-background-image: url("");
+background:linear-gradient(0deg, rgba(255, 0, 150, 0.3), rgba(255, 0, 150, 0.3)), url(" ");
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center center;
