@@ -8,10 +8,10 @@ git config --global -e                 --------------Check all config variables
 -------------------------
 Start tracking with git
 -------------------------
-git status                                  -----Checks your current untracked files
-git add --all                               -----Stages untracked files
-git commit -m  "<Enter commit message>"	    -----Commits untracked files
-git rm -r --cached .                           -----Clears cache
+git status                                            -----Checks your current untracked files
+git add --all                                         -----Stages untracked files
+git commit -m  "<Enter commit message>"	            -----Commits untracked files
+git rm -r --cached .                                  -----Clears cache
 
 ----------------
 Branching
@@ -19,6 +19,7 @@ Branching
 git branch <Enter name of branch>                                 -------Creates a branch
 git branch                                                        -------View all branches
 git checkout <Enter name of branch to switch to>                  -------Switch to branch
+git branch -m <Enter the new name of the branch>                  -------Renames branch
 git merge <Enter name of branch you want to merge with master>    -------Merge branch to master
 git branch -d <Enter name of branch to delete>                    -------Delete local branch
 git push origin --delete <Enter name of branch to delete>         -------Delete remote branch
